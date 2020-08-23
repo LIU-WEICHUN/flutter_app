@@ -15,3 +15,16 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # flutter_app
+## debut for Android Studio in ubuntu
+* install flutter SDK
+```
+sudo snap install flutter --classic
+sudo snap install flutter-gallery
+flutter channel dev
+flutter upgrade
+flutter config --enable-linux-desktop
+```
+* sdk path
+```
+/home/(username)/snap/flutter/common/flutter
+```
